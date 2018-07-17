@@ -18,4 +18,4 @@ run in static machine.
 1. Download the project `$ git clone http://github.com/cpapidas/docker-compose-redis-cluster`
 2. `cd docker-compose-redis-cluster`
 3. `docker-compose build`
-4. `docker-compose up` or `dokcer-compose up -d`
+4. `docker-compose up` or `docker-compose up -d`
