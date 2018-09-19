@@ -5,7 +5,7 @@ creates a cluster with 3 master and 0 replicas.
 
 ### Optional
 If you want to change it just create a Redis block in dokcer-compose.yml
-file and edit the `dokcer-data/docker-entrypoint.sh` file, the line
+file and edit the `docker-data/docker-entrypoint.sh` file, the line
 `echo "yes" | ruby /redis/src/redis-trib.rb create --replicas 0 173.17.0.2:7000 173.17.0.3:7001 173.17.0.4:7002`
 add 3 more IPs to the end and change the --replicas 0 to 1.
 
